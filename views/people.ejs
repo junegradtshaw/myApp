@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>people page</title>
+</head>
+<body>
+  <!--  ejs is embeddable javascript ...javascript that is embedded into html -->
+  <!-- It gets the parameters below when rendered from the index.js file -->
+  Hello from the people page from <%= name %> who lives in <%= state %>
+  <!-- <%var one = 1;
+  var two = 2;
+  console.log(one+two);%> //Just putting javaScript here. -->
+
+  Click <a href="/profiles/<%= name %>">here</a>to visit her/his home page.
+
+</body>
+</html>
